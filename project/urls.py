@@ -16,7 +16,8 @@ Including another URLconf
 from django.urls import include, path
 from core import views
 
+
 urlpatterns = [
-    path('', views.index, name='index'),
+    # path('', views.index, name='index'),
     path('second/', views.second_view)
 ]
